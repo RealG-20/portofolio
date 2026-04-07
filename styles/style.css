@@ -200,6 +200,9 @@ table {
   border-collapse: collapse;
   margin: auto;
 }
+div.tablecontainer {
+  overflow-x: auto;
+}
 
 td,
 th {
@@ -326,7 +329,7 @@ input[type="submit"] {
   }
 
   .table-comptences {
-    display: none;
+    display: non;
   }
 
   .grid-paysages {
