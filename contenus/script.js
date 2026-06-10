@@ -3,7 +3,7 @@ emailjs.init("daBr7X0e7h1yutWxP");
 document.querySelector("form").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  emailjs.sendForm("service_ri74bt", "template_ecc573j", this).then(
+  emailjs.sendForm("service_ri74bwt", "template_ecc573j", this).then(
     //emailjs.sendForm("service_ri74bwt", "template_ecc573j", this).then(
     function () {
       let span = document.querySelector("form span");
